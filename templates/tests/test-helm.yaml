@@ -1,0 +1,3 @@
+{{ $custom_context := (dict "a" "a_val") }}
+{{ $result := (include "my.first.template" $custom_context) }}
+{{ $result }}
